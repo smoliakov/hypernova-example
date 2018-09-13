@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-react-display-name"
+  ],
+  "env": {
+    "dev": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    }
+  }
+}
